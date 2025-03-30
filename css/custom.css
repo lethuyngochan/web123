@@ -1,0 +1,210 @@
+.d-flex {
+    display: flex;
+}
+
+.w-33 {
+    width: 33.33%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.light-grey-bg {
+    background: #F9F9F9;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url(../font/BeVietnamPro-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: BeVietnamProRegular;
+    src: url(../font/BeVietnamPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: BeVietnamPro;
+    src: url(../font/BeVietnamPro-Medium.ttf);
+    font-weight: bold;
+}
+
+h1 {
+    font-family: BeVietnamPro, sans-serif;
+    line-height: 1.4;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.gap-60 {
+    gap: 60px;
+}
+
+.banner-imgs {
+    position: relative;
+}
+
+.fade-slide-in-animation {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.banner-imgs img:first-child {
+    position: absolute;
+    z-index: 2;
+    bottom: -160px;
+    right: 15%;
+    animation-delay: 0.5s;
+}
+
+.banner-imgs img:nth-child(2) {
+    position: absolute;
+    left: -10%;
+    top: -50px;
+    animation-delay: 1s;
+}
+
+.banner-imgs img:nth-child(3) {
+    position: absolute;
+    right: 10%;
+    top: -80px;
+    animation-delay: 1.5s;
+}
+
+.banner-imgs img:nth-child(4) {
+    position: absolute;
+    bottom: -350px;
+    left: -15%;
+    animation-delay: 2s;
+}
+
+.banner-imgs img:nth-child(5) {
+    position: absolute;
+    right: -15%;
+    bottom: -170px;
+    animation-delay: 2.5s;
+}
+
+.banner-imgs img:last-child {
+    position: relative;
+    z-index: 1;
+    animation-delay: 0s;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.fadeInUp {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.d-md-block {
+    display: none;
+}
+
+.elementor a.underline-link {
+    color: black;
+    display: inline-block;
+    font-family: BeVietnamProRegular;
+}
+
+.elementor a.underline-link:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    position: relative;
+    bottom: 18px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.max-width-75 {
+    max-width: 75%;
+    margin: auto;
+}
+
+.font-4 {
+    font-size: 4em;
+    line-height: 1.5;
+}
+
+.black {
+    color: #222733;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.sc_services_modern .sc_services_item .sc_button_arrow:before {
+    content: '';
+}
+
+@media(max-width:992px) {
+    .d-md-block {
+        display: block;
+    }
+}
