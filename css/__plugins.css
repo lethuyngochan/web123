@@ -17018,15 +17018,6 @@ ul.sc_layouts_submenu .sc_blogger .trx_addons_loading {
     background-color: var(--theme-color-text_dark)
 }
 
-.scroll_to_top_style_default:before {
-    position: relative;
-    top: -3px;
-    font-size: 11px;
-    font-weight: 400;
-    font-family: "fontello";
-    content: '\EA08'
-}
-
 .scroll_to_top_style_default:hover {
     color: var(--theme-color-inverse_link);
     border-color: var(--theme-color-text_link);
@@ -34403,7 +34394,7 @@ html.portfolio_preview_opened {
 }
 
 .portfolio_page.portfolio_page_details_right .portfolio_page_details_wrap, .portfolio_page.portfolio_page_details_left .portfolio_page_details_wrap {
-    width: 37%
+    width: 36%
 }
 
 .portfolio_page.portfolio_page_details_right .portfolio_page_details_wrap .portfolio_page_subtitle, .portfolio_page.portfolio_page_details_left .portfolio_page_details_wrap .portfolio_page_subtitle {

@@ -705,7 +705,7 @@ body.fixed_blocks_sticky .sc_stack_section_effect_slide:not(.elementor-element-e
 }
 
 .iColorPickerTable .iColorPicker_moreColors {
-    background-image: url(images/colorpicker_morecolors.png);
+    background-image: url(images/colorpicker_morecolors.webp);
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: middle;
@@ -7497,14 +7497,8 @@ body.frontpage:not(.elementor-editor-active) .sc_layouts_hide_on_frontpage, body
     }
 }
 
-@media (max-width:992px) {
-    .hide_on_tablet, .sc_layouts_hide_on_tablet {
-        display: none !important
-    }
-}
-
 @media (max-width:767px) {
-    .hide_on_mobile, .sc_layouts_hide_on_mobile {
+    .sc_layouts_menu {
         display: none !important
     }
 }
@@ -7662,7 +7656,7 @@ body.frontpage:not(.elementor-editor-active) .sc_layouts_hide_on_frontpage, body
 }
 
 .sc_layouts_row_type_compact {
-    padding: 0.75em 0
+    padding: 20px 50px 20px 50px;
 }
 
 .sc_layouts_row_type_compact .sc_layouts_item, .sc_layouts_row_type_normal .sc_layouts_item {
@@ -8325,7 +8319,7 @@ body.single-cpt_layouts.body_style_wide .trx-addons-layout--single-preview, body
 }
 
 body.single-cpt_layouts[class*="cpt_layouts-template"] {
-    background-image: url(images/transparent.png);
+    background-image: url(images/transparent.webp);
     background-repeat: repeat
 }
 
@@ -11946,7 +11940,7 @@ label.required span.sc_form_field_title:after {
 }
 
 .sc_layouts_row_type_compact .custom-logo-link img, .sc_layouts_row_type_compact .sc_layouts_logo img {
-    max-height: 4.5em
+    max-height: 35px;
 }
 
 .sc_layouts_row_type_narrow .custom-logo-link img, .sc_layouts_row_type_narrow .sc_layouts_logo img {

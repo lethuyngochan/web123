@@ -6315,16 +6315,16 @@
   white-space: nowrap;
 }
 .add-to-calendar-types .atc-type.atc-type-apple .atc-type-image {
-  background-image: url(/wp-content/plugins/latepoint/public/images/apple-logo-compact.png);
+  background-image: url(/wp-content/plugins/latepoint/public/images/apple-logo-compact.webp);
 }
 .add-to-calendar-types .atc-type.atc-type-google .atc-type-image {
-  background-image: url(/wp-content/plugins/latepoint/public/images/google-logo-compact.png);
+  background-image: url(/wp-content/plugins/latepoint/public/images/google-logo-compact.webp);
 }
 .add-to-calendar-types .atc-type.atc-type-outlook .atc-type-image {
-  background-image: url(/wp-content/plugins/latepoint/public/images/outlook-logo-compact.png);
+  background-image: url(/wp-content/plugins/latepoint/public/images/outlook-logo-compact.webp);
 }
 .add-to-calendar-types .atc-type.atc-type-office-365 .atc-type-image {
-  background-image: url(/wp-content/plugins/latepoint/public/images/office-365-logo-compact.jpg);
+  background-image: url(/wp-content/plugins/latepoint/public/images/office-365-logo-compact.webp);
 }
 
 .latepoint-continue-intent-loading {
@@ -7931,7 +7931,7 @@ body.latepoint-lightbox-active .latepoint-lightbox-w {
   width: 30px;
   height: 30px;
   flex: 0 0 30px;
-  background-image: url(/wp-content/plugins/latepoint/public/images/location-image.png);
+  background-image: url(/wp-content/plugins/latepoint/public/images/location-image.webp);
   background-size: cover;
   border-radius: 6px;
 }
@@ -10582,14 +10582,14 @@ body.latepoint .os-form-phonefield-group:not(.has-value) .iti {
   height: 15px;
   box-shadow: none;
   border-radius: 2px;
-  background-image: url("../images/intl-tel-input/flags.png");
+  background-image: url("../images/intl-tel-input/flags.webp");
   background-repeat: no-repeat;
   background-color: #DBDBDB;
   background-position: 20px 0;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .latepoint-admin .iti__flag, .latepoint .iti__flag {
-    background-image: url("../images/intl-tel-input/flags@2x.png");
+    background-image: url("../images/intl-tel-input/flags@2x.webp");
   }
 }
 .latepoint-admin .iti__flag.iti__np, .latepoint .iti__flag.iti__np {

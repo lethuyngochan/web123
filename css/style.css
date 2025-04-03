@@ -32,7 +32,6 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, address, section {
   font-family: BeVietnamPro;
   font-size: 100%;
-  line-height: inherit;
   font-weight: inherit;
   font-style: inherit;
   outline: 0;

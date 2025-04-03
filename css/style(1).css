@@ -4830,7 +4830,7 @@ a.qwery_skip_link_anchor {
 
 .qwery_loading,
 .trx_addons_loading {
-  background-image: url(../../../images/preloader.png) !important;
+  background-image: url(../../../images/preloader.webp) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
@@ -5012,7 +5012,6 @@ a.qwery_skip_link_anchor {
 }
 
 .page_content_wrap {
-  padding-top: 7.1rem;
   padding-bottom: 7.4rem;
 }
 
@@ -13781,7 +13780,7 @@ div.esg-filters,
   bottom: 0;
   background: rgba(255, 255, 255, 0.7);
   background-color: var(--theme-color-bg_color_07);
-  background-image: url(../../../images/preloader2.png);
+  background-image: url(../../../images/preloader2.webp);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -13889,7 +13888,7 @@ div.esg-filters,
   -ms-transform: rotate(-20deg);
   transform: rotate(-20deg);
   opacity: 0.7;
-  background-image: url(../../../images/read.png);
+  background-image: url(../../../images/read.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -18913,7 +18912,7 @@ body.body_style_fullwide .sc_layouts_menu_nav > li[class*="columns-"] > ul {
 
 /* BG */
 .sc_testimonials_hover .sc_testimonials_item:after {
-  background-image: url(../images/testimonials-bg.png);
+  background-image: url(../images/testimonials-bg.webp);
 }
 
 /* Advanced Popups */
